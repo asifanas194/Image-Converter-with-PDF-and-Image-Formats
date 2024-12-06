@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Image Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Image Converter Tool</h1>
+    <p>Upload, Preview, and Convert Images to Various Formats</p>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Upload Section -->
+    <div class="upload-section">
+      <label for="image-upload" class="upload-label">
+        <input type="file" id="image-upload" accept="image/*">
+        <span>Select Image</span>
+      </label>
+      <div id="preview" class="preview-container">
+        <!-- Image Preview will appear here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>Need help? Contact us at <a href="mailto:support@example.com">support@example.com</a></p>
+  </footer>
+
+  <!-- Add jsPDF library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
